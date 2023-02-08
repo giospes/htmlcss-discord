@@ -36,6 +36,11 @@
     align-items: center;
 }
 
+
+.space-beetween{
+    justify-content: space-between; 
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -57,15 +62,34 @@
     background-color: var(--bg-footer-color);   
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
 
 header{
     color: var(--main-color);
-    height: 475px;
+    height: 500px;
     background: url('../img/jumbo.png');
     background-size: cover;
     background-position: center ;
     text-align: center;
 }
+
+header nav{
+    padding-top: 1rem;
+}
+
+
+#top-ul{
+    width: 40%;
+    padding-top: .5rem;
+}
+
 
 h1{
     margin-bottom: 2rem;
@@ -74,7 +98,8 @@ h1{
 }
 
 #jumbotron {
-   margin-bottom: 1rem;
+    position: relative;
+    top: 20%;
 }
 
 #jumbotron p {
