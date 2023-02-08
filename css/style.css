@@ -57,6 +57,10 @@
     background-color: var(--bg-footer-color);   
 }
 
+.emph-btn{
+    background-color: var(--emphasis-color);
+}
+
 ul{
     list-style-type: none;
 }
@@ -118,7 +122,7 @@ main{
     background-color: var(--main-color);
 }
 
-section{
+main section{
     padding: 8em 0;
     width: 100%;
 }
@@ -172,7 +176,68 @@ section p{
 }
 
 #download{
-    background-color: var(--emphasis-color);
     width: 200px;
     margin: 0 auto;
+}
+
+
+footer{
+    background-color: var(--bg-footer-color);
+    color: var(--main-color) ;
+}
+
+footer section{
+    width: 100%;
+}
+
+footer div.container{
+    padding-top: 4rem;
+}
+
+#social{
+    flex-basis: 25%;
+    padding-right: 3rem;
+}
+
+#links{
+    flex-basis: 75%;
+}
+
+h3{
+    color: var(--emphasis-color);
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+figure img{
+    width: 30px;
+    padding-right: .5rem ;
+}
+figcaption{
+    font-weight: 300;
+}
+#social ul{
+    margin-top: 1rem;
+    padding-right: 8em;
+}
+
+#social i{
+    color: var(--main-color);
+}
+
+#links h4{
+    color: var(--emphasis-color);
+}
+
+.menu li{
+    padding-bottom: 1rem;
+}
+
+hr{
+    margin: 1rem auto !important;
+    border: 1px solid var(--emphasis-color);
+}
+
+aside{
+    padding-bottom: 1rem;
 }
